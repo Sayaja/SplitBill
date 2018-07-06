@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
+  <title>SplitBill</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>SplitBill</h1>
+    </header>
+
+    <p id="description">Split your bills with ease! Select how many you are and how much you paid, and SplitBill will do the rest.</p>
+
+    <footer>
+      <form id="form0">
+        Number of people: <input type="number" min="2" max="10" value="2" oninput="toggleForms()">
+      </form>
+      <form id="form1">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form2">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form3" style="display: none">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form4" style="display: none">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form5" style="display: none">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form6" style="display: none">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form7" style="display: none">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form8" style="display: none">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form9" style="display: none">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <form id="form10" style="display: none">
+        Name: <input type="name"><br>
+        Amount: <input type="number" value="0"><br>
+      </form>
+      <button type="button" onclick="readForm()">Calculate</button>
+    </footer>
+    <p id="result"></p>
+  </div>
+</body>
+</html>
