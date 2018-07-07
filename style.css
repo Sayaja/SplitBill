@@ -67,7 +67,14 @@ h1 {
 }
 
 #form0 {
-	width: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#currency {
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -79,4 +86,10 @@ h1 {
 	margin-bottom: 20px;
 	margin-left: 40%;
 	margin-right: 40%;
+}
+
+#result {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
