@@ -1,6 +1,3 @@
-// var currencies = ["kr", "£", "$"];
-// $('input[type=list]').w2field('list', { items: currencies });
-
 class Person { // Holds name and balance for each person
   constructor(name, balance, color) {
     this.name = name;
@@ -16,7 +13,8 @@ class Person { // Holds name and balance for each person
     }
     this.balance += temp;
     personB.balance -= temp;
-    return "<span style='background-color: " + this.color + "'>" + this.name + "</span> owes <span style='background-color: "+ personB.color + "'>" + personB.name + "</span> " + String(temp) + "<br>";
+    var currency = document.getElementById("currency").elements[0].value;
+    return "<span style='background-color: " + this.color + "'>" + this.name + "</span> owes <span style='background-color: "+ personB.color + "'>" + personB.name + "</span> " + String(temp) + currency + "<br>";
   }
 }
 
