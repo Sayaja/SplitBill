@@ -2,6 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <link rel="shortcut icon" href="favicon.ico"/>
   <link href="style.css" rel="stylesheet" type="text/css">
   <script src="script.js"></script>
   <title>SplitBill</title>
@@ -17,10 +21,10 @@
     <p id="description">Split your bills with ease! Select how many you are and how much you paid, and SplitBill will do the rest.</p>
 
     <footer>
-      <form id="form0" class="form">
+      <form id="form0">
         <p>Number of people: <input type="number" min="2" max="10" value="3" oninput="toggleForms()"></p>
       </form>
-      <form id="currency" class="form">
+      <form id="currency">
         <p>Currency:
           <select>
             <option value="kr">kr</option>
