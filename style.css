@@ -1,3 +1,4 @@
+/* @charset "UTF-8"; */
 /* Body */
 body {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -120,6 +121,20 @@ button:hover {
 
 /* Mobile */
 @media (max-width: 426px) {
+
+	/* body {
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	  margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		font-style: normal;
+		font-weight: 200;
+		background-color: #cfe2cf;
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	} */
 
 	/* Container */
 	.container {

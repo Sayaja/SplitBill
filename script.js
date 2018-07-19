@@ -154,4 +154,5 @@ function calculate(formResult) { // Calculates how much each person owes
   }
 
   document.getElementById("result").innerHTML = text;
+  window.scrollTo(0,document.body.scrollHeight);
 }
